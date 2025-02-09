@@ -1,4 +1,4 @@
-# Udacity NLP Nanodegree - Machine Translation
+# Machine Translation
 
 ## File Structure
 
