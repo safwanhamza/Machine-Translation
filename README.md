@@ -3,7 +3,6 @@
 ## File Structure
 
 * |- `machine-translation.ipynb`
-* |- `machine-translation.html`
 * |- `README.md`
 * |- `data/`
 * | |- `small_vocab_en`
