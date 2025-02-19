@@ -9,7 +9,7 @@
 * | |- `small_vocab_fr`
 
 ## Introduction
-The following repository shows one of the projects that I worked on in order to receive the Udacity NLP Nanodegree. The previous project, a Hidden Markov Model Part of Speech Tagger, emphasized advanced statistical techniques analyzing the text data. In the following sections, neural networks are discussed, in relation to NLP. The following project features multiple neural network models, increasing in complexity, leveraging Keras. The final model features encoder-decoder technology, and Bidirectional layers in the neural network.
+In this project, model is built that translates English to French using an encoder (Bidirectional GRU) to capture English sentence context, which is then repeated and fed to a decoder (Bidirectional GRU) to generate the French translation word by word using a TimeDistributed Dense layer. It employs embedding for input words and bidirectional RNNs for sequence processing in an encoder-decoder architecture.
 
 ## Project Overview
 In this project, we will be exploring how to create a Neural Network Model for Machine Tranlsation of simple sentences in English to French.
